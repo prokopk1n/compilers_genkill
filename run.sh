@@ -1,5 +1,6 @@
 #!/bin/bash
 mkdir -p outputs
+make gk
 for file in tests/*.txt; do
   filename=$(basename "$file")
   echo ========== TEST "$filename" ==========
